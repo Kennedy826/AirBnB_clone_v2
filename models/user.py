@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """Module for User class."""
 from sqlalchemy.ext.declarative import declarative_base
-from models.base_model import BaseModel, Base
+from  models.base_model import BaseModel, Base
 from sqlalchemy import Column, Integer, String
 from sqlalchemy.orm import relationship
 from models.place import Place
